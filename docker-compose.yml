@@ -1,0 +1,12 @@
+version: '3.4'
+
+services:
+  mongopythonb:
+    image: mongopythonb
+    
+    ports:
+      - 27018:27017
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: "leobardoreyv"
+      MONGO_INITDB_ROOT_PASSWORD:   "Madseason_0610"
+      
