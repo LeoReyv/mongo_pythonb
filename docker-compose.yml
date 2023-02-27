@@ -1,8 +1,8 @@
 version: '3.4'
 
 services:
-  mongopythonb:
-    image: mongopythonb
+  mongo:
+    image: mongo
     
     ports:
       - 27018:27017
